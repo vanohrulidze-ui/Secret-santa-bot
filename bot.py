@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQuer
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 
-DB_PATH = os.environ.get("DB_PATH", "/data/santa.sqlite")
+DB_PATH = os.environ.get("DB_PATH", "santa.sqlite")
 
 
 def db():
